@@ -6,6 +6,7 @@ In folder training there is notebook from Kaggle where I trained the model.
 
 1. Get [model.onnx](https://drive.google.com/file/d/18oLiOQUbupw9GeNUEGh0SU9_HwPSbNtZ/view?usp=sharing
 ) from google drive and put it to model_repository.
+
 ![model_repository](img/model_repository.PNG)
 
 2. Run NVIDIA Tritor Inference Server with command from inference folder:
