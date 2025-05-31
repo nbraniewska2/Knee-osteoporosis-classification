@@ -1,0 +1,17 @@
+name: "knee_classification_onnx"
+platform: "onnxruntime_onnx"
+max_batch_size : 0
+input [
+    {
+        name: "x"
+        data_type: TYPE_FP32
+        dims: [ 1, 3, 224, 224 ]
+    }
+  ]
+  output [
+    {
+        name: "linear_2"
+        data_type: TYPE_FP32
+        dims: [ 1, 3 ]
+    }
+  ]

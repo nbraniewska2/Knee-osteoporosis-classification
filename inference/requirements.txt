@@ -1,0 +1,6 @@
+gevent~=25.5.1
+numpy~=2.0.2
+pillow~=11.2.1
+torch~=2.7.0
+torchvision~=0.22.0
+tritonclient[http]~=2.57.0
